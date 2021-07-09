@@ -1,0 +1,46 @@
+{
+  "name": "openaq-browser",
+  "version": "0.1.0",
+  "description": "A web client for OpenAQ API.",
+  "main": "index.html",
+  "scripts": {
+    "start": "grunt serve",
+    "test": "grunt karma:continuous",
+    "pretest": "grunt build",
+    "postinstall": "bower install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dolugen/openaq-browser.git"
+  },
+  "keywords": [
+    "openaq"
+  ],
+  "author": "Dolugen Buuralda <dolugen@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dolugen/openaq-browser/issues"
+  },
+  "homepage": "https://github.com/dolugen/openaq-browser",
+  "private": true,
+  "devDependencies": {
+    "angular-mocks": "~1.4.8",
+    "grunt": "^0.4.5",
+    "grunt-bower-concat": "^1.0.0",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-copy": "^0.8.2",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-jshint": "^0.11.3",
+    "grunt-contrib-uglify": "^0.11.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-gh-pages": "^1.0.0",
+    "grunt-karma": "^0.12.2",
+    "grunt-processhtml": "^0.3.8",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.22",
+    "karma-jasmine": "^0.3.6",
+    "karma-phantomjs-launcher": "^0.2.1",
+    "phantomjs": "^1.9.19"
+  }
+}
